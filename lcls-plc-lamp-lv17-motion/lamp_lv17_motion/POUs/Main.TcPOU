@@ -34,8 +34,8 @@ VAR
 //    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Gas Jet Z
 
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[SamplePaddleXY-EL1084]^Channel 1^Input;
-                              .bLimitBackwardEnable:=TIIB[SamplePaddleXY-EL1084]^Channel 2^Input'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[SamplePaddleXY-Limits-EL1084]^Channel 1^Input;
+                              .bLimitBackwardEnable:=TIIB[SamplePaddleXY-Limits-EL1084]^Channel 2^Input'}
 	{attribute 'pytmc' := '
 		pv: TMO:LAMP:MMS:04
 	'}
@@ -44,8 +44,8 @@ VAR
 //    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Sample Paddle X
 
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[SamplePaddleXY-EL1084]^Channel 4^Input;
-                              .bLimitBackwardEnable:=TIIB[SamplePaddleXY-EL1084]^Channel 3^Input'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[SamplePaddleXY-Limits-EL1084]^Channel 4^Input;
+                              .bLimitBackwardEnable:=TIIB[SamplePaddleXY-Limits-EL1084]^Channel 3^Input'}
 	{attribute 'pytmc' := '
 		pv: TMO:LAMP:MMS:05
 	'}
@@ -54,8 +54,8 @@ VAR
 //    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Sample Paddle Y
 
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[SamplePaddleZ-EL1084]^Channel 1^Input;
-                              .bLimitBackwardEnable:=TIIB[SamplePaddleZ-EL1084]^Channel 2^Input'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[SamplePaddleZ-Limits-EL1084]^Channel 1^Input;
+                              .bLimitBackwardEnable:=TIIB[SamplePaddleZ-Limits-EL1084]^Channel 2^Input'}
 	{attribute 'pytmc' := '
 		pv: TMO:LAMP:MMS:06
     '}
@@ -64,8 +64,8 @@ VAR
 //    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Sample Paddle Z
 	
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[Detector-XY-EL1084]^Channel 1^Input;
-                              .bLimitBackwardEnable:=TIIB[Detector-XY-EL1084]^Channel 2^Input'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 1^Input;
+                              .bLimitBackwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 2^Input'}
 	{attribute 'pytmc' := '
 		pv: TMO:LAMP:MMS:07
     '}
@@ -74,8 +74,8 @@ VAR
 //    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Detector X
 	
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[Detector-XY-EL1084]^Channel 1^Input;
-                              .bLimitBackwardEnable:=TIIB[Detector-XY-EL1084]^Channel 2^Input'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 1^Input;
+                              .bLimitBackwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 2^Input'}
 	{attribute 'pytmc' := '
 		pv: TMO:LAMP:MMS:08
     '}
