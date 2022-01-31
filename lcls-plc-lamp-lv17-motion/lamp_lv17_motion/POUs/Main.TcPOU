@@ -70,8 +70,8 @@ VAR
 		pv: TMO:LAMP:MMS:07
     '}
 	M7  	: DUT_MotionStage := (bPowerSelf:=TRUE, 
-//    nEnableMode:=ENUM_StageEnableMode.DURING_MOTION,
-    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
+    nEnableMode:=ENUM_StageEnableMode.DURING_MOTION,
+//    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Detector X
 	
 	{attribute 'TcLinkTo' := '.bLimitBackwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 4^Input'}
@@ -84,8 +84,8 @@ VAR
 		pv: TMO:LAMP:MMS:08
     '}
 	M8  	: DUT_MotionStage := (bPowerSelf:=TRUE, 
-//    nEnableMode:=ENUM_StageEnableMode.DURING_MOTION,
-    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
+    nEnableMode:=ENUM_StageEnableMode.DURING_MOTION,
+//    nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Detector Y
 	
 	
