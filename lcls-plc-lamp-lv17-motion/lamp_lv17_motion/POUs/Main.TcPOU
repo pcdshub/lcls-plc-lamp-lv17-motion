@@ -74,8 +74,12 @@ VAR
     nEnableMode:=ENUM_StageEnableMode.ALWAYS,
     nHomingMode := ENUM_EpicsHomeCmd.ABSOLUTE_SET); // Detector X
 	
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 3^Input;
-                              .bLimitBackwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 4^Input'}
+	{attribute 'TcLinkTo' := '.bLimitBackwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 4^Input'}
+	// .bLimitForwardEnable:=TIIB[DetectorXY-Limits-EL1084]^Channel 3^Input;
+	
+	//             Lim+ wire is not terminated correctly on vacuum side,
+    //             scientists will use software limits and camera-guided motion)
+	
 	{attribute 'pytmc' := '
 		pv: TMO:LAMP:MMS:08
     '}
@@ -107,6 +111,10 @@ END_VAR]]></Declaration>
 	// Detector (Epix-100)
 	M7.bHardwareEnable	:= TRUE;
 	M8.bHardwareEnable	:= TRUE;
+	
+	// Detector X (Lim+ wire is not terminated correctly on vacuum side,
+    //             scientists will use software limits and camera-guided motion)
+	M7.bLimitForwardEnable := True;
 	
 	// fbMotionStage
 	// Gas Jet
