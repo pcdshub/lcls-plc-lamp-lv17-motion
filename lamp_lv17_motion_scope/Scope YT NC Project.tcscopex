@@ -15,7 +15,7 @@
   <IsTemplate>false</IsTemplate>
   <Layout>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;Layout&gt;
-  &lt;Window Guid="75f5c493-0809-4be7-9a2b-876900f81678" LastFocused="132763914474492925" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="8f73baf8-efa7-42ef-8054-3ee877784543" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
+  &lt;Window Guid="75f5c493-0809-4be7-9a2b-876900f81678" LastFocused="132878076775962355" DockedSize="200" PopupSize="0" FloatingLocation="-1, -1" FloatingSize="550, 400" LastOpenDockSituation="Document" LastFixedDockSituation="Document" LastFixedDockLocation="Right" LastFloatingWindowGuid="00000000-0000-0000-0000-000000000000" LastDockContainerCount="0" LastDockContainerIndex="0" DockedWorkingSize="250, 400" DockedWindowGroupGuid="00000000-0000-0000-0000-000000000000" DockedIndexInWindowGroup="0" DockedSplitPath="0" DocumentWorkingSize="250, 400" DocumentWindowGroupGuid="8f73baf8-efa7-42ef-8054-3ee877784543" DocumentIndexInWindowGroup="0" DocumentSplitPath="0" FloatingWorkingSize="250, 400" FloatingWindowGroupGuid="00000000-0000-0000-0000-000000000000" FloatingIndexInWindowGroup="0" FloatingSplitPath="0" /&gt;
   &lt;DocumentContainer Dock="5"&gt;
     &lt;SplitLayoutSystem WorkingSize="250, 400" SplitMode="0"&gt;
       &lt;ControlLayoutSystem WorkingSize="250, 400" Guid="8f73baf8-efa7-42ef-8054-3ee877784543" Collapsed="0" SelectedControl="75f5c493-0809-4be7-9a2b-876900f81678"&gt;
@@ -54,7 +54,7 @@
           <Guid>afdb58ca-f762-4618-b0ad-e83d1478e4d6</Guid>
           <IsFileBased>false</IsFileBased>
           <Name>Overview Chart</Name>
-          <OverviewVisible>true</OverviewVisible>
+          <OverviewVisible>false</OverviewVisible>
           <SortPriority>100</SortPriority>
           <Suffix>.svochart</Suffix>
           <Title>OverviewChart_81</Title>
@@ -449,7 +449,7 @@
         <AxisGroup AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <Comment />
           <DisplayColor>-1118482</DisplayColor>
-          <Enabled>true</Enabled>
+          <Enabled>false</Enabled>
           <Guid>362dcc51-4cb3-4978-999d-e8b99a28d995</Guid>
           <IsFileBased>false</IsFileBased>
           <Name>SamplePaddleXPosition</Name>
@@ -488,7 +488,7 @@
                   <SubGridDivisions>5</SubGridDivisions>
                   <Suffix>.svstyle</Suffix>
                   <Title>AxisStyle_36</Title>
-                  <Visible>true</Visible>
+                  <Visible>false</Visible>
                 </AxisStyle>
               </SubMember>
               <Suffix>.svaxis</Suffix>
@@ -618,7 +618,7 @@
                   </SubMember>
                   <Suffix>.svstyle</Suffix>
                   <Title>ChannelStyle_45</Title>
-                  <Visible>true</Visible>
+                  <Visible>false</Visible>
                 </ChannelStyle>
               </SubMember>
               <Suffix>.svchannel</Suffix>
@@ -737,7 +737,7 @@
                   </SubMember>
                   <Suffix>.svstyle</Suffix>
                   <Title>ChannelStyle_45</Title>
-                  <Visible>true</Visible>
+                  <Visible>false</Visible>
                 </ChannelStyle>
               </SubMember>
               <Suffix>.svchannel</Suffix>
@@ -750,7 +750,7 @@
         <AxisGroup AssemblyName="TwinCAT.Measurement.Scope.API.Model">
           <Comment />
           <DisplayColor>-1118482</DisplayColor>
-          <Enabled>false</Enabled>
+          <Enabled>true</Enabled>
           <Guid>fb87577f-fd3b-4aed-8f61-66fccb39009c</Guid>
           <IsFileBased>false</IsFileBased>
           <Name>SamplePaddleZPosition</Name>
@@ -789,7 +789,7 @@
                   <SubGridDivisions>5</SubGridDivisions>
                   <Suffix>.svstyle</Suffix>
                   <Title>AxisStyle_54</Title>
-                  <Visible>false</Visible>
+                  <Visible>true</Visible>
                 </AxisStyle>
               </SubMember>
               <Suffix>.svaxis</Suffix>
@@ -919,7 +919,7 @@
                   </SubMember>
                   <Suffix>.svstyle</Suffix>
                   <Title>ChannelStyle_63</Title>
-                  <Visible>false</Visible>
+                  <Visible>true</Visible>
                 </ChannelStyle>
               </SubMember>
               <Suffix>.svchannel</Suffix>
@@ -1038,7 +1038,7 @@
                   </SubMember>
                   <Suffix>.svstyle</Suffix>
                   <Title>ChannelStyle_63</Title>
-                  <Visible>false</Visible>
+                  <Visible>true</Visible>
                 </ChannelStyle>
               </SubMember>
               <Suffix>.svchannel</Suffix>
@@ -1090,7 +1090,7 @@
                   <SubGridDivisions>5</SubGridDivisions>
                   <Suffix>.svstyle</Suffix>
                   <Title>AxisStyle_80</Title>
-                  <Visible>true</Visible>
+                  <Visible>false</Visible>
                 </AxisStyle>
               </SubMember>
               <Suffix>.svaxis</Suffix>
@@ -1220,7 +1220,7 @@
                   </SubMember>
                   <Suffix>.svstyle</Suffix>
                   <Title>ChannelStyle_76</Title>
-                  <Visible>true</Visible>
+                  <Visible>false</Visible>
                 </ChannelStyle>
               </SubMember>
               <Suffix>.svchannel</Suffix>
@@ -1339,7 +1339,7 @@
                   </SubMember>
                   <Suffix>.svstyle</Suffix>
                   <Title>ChannelStyle_76</Title>
-                  <Visible>true</Visible>
+                  <Visible>false</Visible>
                 </ChannelStyle>
               </SubMember>
               <Suffix>.svchannel</Suffix>
@@ -1384,7 +1384,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>1</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>788626e4-83a4-4dfd-bcc1-128186473e48</Guid>
           <IndexGroup>16643</IndexGroup>
@@ -1465,7 +1465,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>2</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>01a9b5e7-f177-4dbc-b2a6-01f64d02c2ab</Guid>
           <IndexGroup>16643</IndexGroup>
@@ -1546,7 +1546,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>3</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>40d06ad2-aa93-48a9-b003-1282b734ded7</Guid>
           <IndexGroup>16647</IndexGroup>
@@ -1627,7 +1627,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>4</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>fcb3b7d9-17e2-4c9e-9314-7cdb898da4eb</Guid>
           <IndexGroup>16647</IndexGroup>
@@ -1708,7 +1708,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>5</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>7ce92270-4d01-43e7-b1fd-cdfd99a15af6</Guid>
           <IndexGroup>16649</IndexGroup>
@@ -1789,7 +1789,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>6</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>c7bbeff9-e728-44d1-a187-9bcff8c566ff</Guid>
           <IndexGroup>16649</IndexGroup>
@@ -1870,7 +1870,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>7</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>9def17a4-80c1-4d99-bd91-8d7182d51a05</Guid>
           <IndexGroup>16648</IndexGroup>
@@ -1951,7 +1951,7 @@
           <DataType>REAL64</DataType>
           <DisplayColor>Black</DisplayColor>
           <Enabled>true</Enabled>
-          <FileHandle>0</FileHandle>
+          <FileHandle>8</FileHandle>
           <ForceOversampling>false</ForceOversampling>
           <Guid>2258b5a0-9cc0-45a6-82c1-5969f42bac4d</Guid>
           <IndexGroup>16648</IndexGroup>
@@ -2024,6 +2024,95 @@
       <Suffix>.svtm</Suffix>
       <Title>TriggerModule_95</Title>
     </TriggerModule>
+    <MarkerContainer AssemblyName="TwinCAT.Measurement.Scope.API.Model">
+      <Comment />
+      <DisplayColor>Black</DisplayColor>
+      <Guid>36a8cea2-8738-45c7-842f-3e50b91825be</Guid>
+      <IsFileBased>false</IsFileBased>
+      <Name>Marker Container (4)</Name>
+      <SortPriority>100</SortPriority>
+      <SubMember>
+        <MarkerControlStyle AssemblyName="TwinCAT.Measurement.Scope.API.Model">
+          <AutoMarkerDiffs>false</AutoMarkerDiffs>
+          <Comment />
+          <DisplayColor>Black</DisplayColor>
+          <Guid>a14eeb41-784e-46b8-8a08-97d3b449531c</Guid>
+          <IsFileBased>false</IsFileBased>
+          <MarkerInRows>true</MarkerInRows>
+          <Name>Marker Table</Name>
+          <ReferencedMemberGuid>00000000-0000-0000-0000-000000000000</ReferencedMemberGuid>
+          <ShowAbsoluteTimes>false</ShowAbsoluteTimes>
+          <ShowColoredDot>true</ShowColoredDot>
+          <ShowColoredText>true</ShowColoredText>
+          <ShowHexValues>false</ShowHexValues>
+          <ShowUnits>false</ShowUnits>
+          <SortPriority>100</SortPriority>
+          <SubMember />
+          <Suffix>.svstyle</Suffix>
+          <Title>MarkerControlStyle_87</Title>
+          <WidthValues />
+        </MarkerControlStyle>
+        <MarkerControlStyle AssemblyName="TwinCAT.Measurement.Scope.API.Model">
+          <AutoMarkerDiffs>false</AutoMarkerDiffs>
+          <Comment />
+          <DisplayColor>Black</DisplayColor>
+          <Guid>45122225-5438-4e6e-9a4e-784a87d0380c</Guid>
+          <IsFileBased>false</IsFileBased>
+          <MarkerInRows>true</MarkerInRows>
+          <Name>NC Axis 1 - Table</Name>
+          <ReferencedMemberGuid>75f5c493-0809-4be7-9a2b-876900f81678</ReferencedMemberGuid>
+          <ShowAbsoluteTimes>false</ShowAbsoluteTimes>
+          <ShowColoredDot>true</ShowColoredDot>
+          <ShowColoredText>true</ShowColoredText>
+          <ShowHexValues>false</ShowHexValues>
+          <ShowUnits>false</ShowUnits>
+          <SortPriority>100</SortPriority>
+          <SubMember>
+            <MarkerTable_SingleContainer AssemblyName="TwinCAT.Measurement.Scope.API.Model">
+              <Comment />
+              <DisplayColor>Black</DisplayColor>
+              <Guid>1223f5d3-c6e2-40f1-a8d4-9419e5688fc6</Guid>
+              <GuidUsedValue>11111111-1111-1111-1111-111111111111</GuidUsedValue>
+              <IsFileBased>false</IsFileBased>
+              <Name>MarkerTable_SingleContainer_98</Name>
+              <SortPriority>0</SortPriority>
+              <Suffix>.svmtc</Suffix>
+              <Title>MarkerTable_SingleContainer_98</Title>
+              <Type>Channel</Type>
+            </MarkerTable_SingleContainer>
+            <MarkerTable_SingleContainer AssemblyName="TwinCAT.Measurement.Scope.API.Model">
+              <Comment />
+              <DisplayColor>Black</DisplayColor>
+              <Guid>b1752aef-e3b5-4958-ac27-88368a824ef9</Guid>
+              <GuidUsedValue>a925d6c1-46b6-4f3c-ad9c-8245d3d2dfcb</GuidUsedValue>
+              <IsFileBased>false</IsFileBased>
+              <Name>MarkerTable_SingleContainer_325</Name>
+              <SortPriority>1</SortPriority>
+              <Suffix>.svmtc</Suffix>
+              <Title>MarkerTable_SingleContainer_325</Title>
+              <Type>Channel</Type>
+            </MarkerTable_SingleContainer>
+            <MarkerTable_SingleContainer AssemblyName="TwinCAT.Measurement.Scope.API.Model">
+              <Comment />
+              <DisplayColor>Black</DisplayColor>
+              <Guid>e0762820-15d7-40cf-9097-354f59532444</Guid>
+              <GuidUsedValue>cdc41d30-14ea-4c26-8359-4362b279cd94</GuidUsedValue>
+              <IsFileBased>false</IsFileBased>
+              <Name>MarkerTable_SingleContainer_326</Name>
+              <SortPriority>2</SortPriority>
+              <Suffix>.svmtc</Suffix>
+              <Title>MarkerTable_SingleContainer_326</Title>
+              <Type>Channel</Type>
+            </MarkerTable_SingleContainer>
+          </SubMember>
+          <Suffix>.svstyle</Suffix>
+          <Title>MarkerControlStyle_87</Title>
+          <WidthValues />
+        </MarkerControlStyle>
+      </SubMember>
+      <Suffix>.svmc</Suffix>
+      <Title>MarkerContainer_85</Title>
+    </MarkerContainer>
   </SubMember>
   <Suffix>.tcscopex</Suffix>
   <SynchronisationMode>Default</SynchronisationMode>

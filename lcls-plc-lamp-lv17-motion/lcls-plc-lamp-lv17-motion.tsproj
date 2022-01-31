@@ -4,7 +4,11 @@
 		<System>
 			<Licenses CacheOrCheckLicensesOnStartup="true">
 				<Target>
+					<ManualSelect>{3EBB9639-5FF3-42B6-8847-35C70DC013C8}</ManualSelect>
 					<ManualSelect>{BF78CFC7-2E63-42C3-8C07-BB6C346BFB8B}</ManualSelect>
+					<TargetSelect TargetId="4">{520DE751-9DB6-47CB-8240-BD5C466E7E64}</TargetSelect>
+					<TargetSelect TargetId="4">{66689887-CCBD-452C-AC9A-039D997C6E66}</TargetSelect>
+					<TargetSelect TargetId="4">{BF78CFC7-2E63-42C3-8C07-BB6C346BFB8B}</TargetSelect>
 					<LicenseDevice DongleHardwareId="4" DongleDevice="#x03020003" DongleSystemId="{A19A9D0F-F84B-C714-E580-8A762B6067AA}"/>
 				</Target>
 			</Licenses>
