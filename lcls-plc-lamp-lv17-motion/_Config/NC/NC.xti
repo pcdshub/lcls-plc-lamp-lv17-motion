@@ -19,10 +19,10 @@
 		<Axis File="GasJetX.xti" Id="1"/>
 		<Axis File="GasJetY.xti" Id="2"/>
 		<Axis File="GasJetZ.xti" Id="3"/>
-		<Axis File="SamplePaddleX.xti" Id="7"/>
-		<Axis File="SamplePaddleY.xti" Id="8"/>
-		<Axis File="SamplePaddleZ.xti" Id="9"/>
-		<Axis File="DetectorX.xti" Id="10"/>
-		<Axis File="DetectorY.xti" Id="11"/>
+		<Axis File="SamplePaddleX.xti" Id="4"/>
+		<Axis File="SamplePaddleY.xti" Id="5"/>
+		<Axis File="SamplePaddleZ.xti" Id="6"/>
+		<Axis File="DetectorX.xti" Id="7"/>
+		<Axis File="DetectorY.xti" Id="8"/>
 	</NC>
 </TcSmItem>
