@@ -115,7 +115,7 @@ END_VAR]]></Declaration>
 	// Detector X (Lim+ wire is not terminated correctly on vacuum side,
     //             scientists will use software limits and camera-guided motion)
 	M7.bLimitForwardEnable := True;
-	
+	M7.bLimitBackwardEnable := True;
 	// fbMotionStage
 	// Gas Jet
 	fbMotionStageM1(stMotionStage:=M1);
